@@ -100,7 +100,7 @@ export default function Footer() {
                   </svg>
                 </span>
                 <a
-                  href="mailto:support@urbancraft.com"
+                  href="mailto:support@urbancraftglobal.com"
                   className="hover:text-yellow-600 transition"
                 >
                   support@urbancraft.com
