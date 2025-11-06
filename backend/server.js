@@ -97,7 +97,7 @@ app.post('/api/contact', async (req, res) => {
                   <tr>
                     <td style="background: linear-gradient(135deg, #EAB308 0%, #F59E0B 100%); padding: 40px 40px 30px; text-align: center;">
                       <h1 style="margin: 0; color: #000000; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">
-                        Urban<span style="color: #ffffff;">Craft</span> Global
+                        Urbancraft Global
                       </h1>
                       <div style="width: 60px; height: 4px; background-color: #000000; margin: 20px auto 0; border-radius: 2px;"></div>
                     </td>
