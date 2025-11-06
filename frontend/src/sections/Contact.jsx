@@ -18,8 +18,9 @@ export default function Contact() {
     e.preventDefault();
     setStatus("Sending...");
 
-    // Use environment variable for API URL, fallback to localhost for development
-    const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+    // Use relative path for Vercel deployment (no CORS needed)
+    // Falls back to localhost for local development
+    const API_URL = import.meta.env.VITE_API_URL || "";
 
     try {
       const response = await fetch(`${API_URL}/api/contact`, {

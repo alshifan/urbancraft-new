@@ -1,0 +1,17 @@
+{
+  "name": "urbancraft",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "install:all": "cd frontend && npm install && cd ../api && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:api": "cd api && npm install"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
+
